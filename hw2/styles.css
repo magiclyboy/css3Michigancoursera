@@ -1,0 +1,156 @@
+/* Skip to main content accessibility */
+a.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+a.skip-link:focus {
+    top: 0;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 12px;
+    background-color: #838383;
+    background-image: url(flywheel.jpg);
+}
+
+/* ACTIVE LINK */
+a.active {
+    background: #000000;
+    color: #FFFFFF;
+    border-style: solid;
+}
+
+/* NAVIGATION */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+nav img {
+    width: 10%;
+}
+nav a {
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration: none;
+    display: inline-block;
+    background: #ffffff;
+    opacity: 0.6;
+    color: #000000;
+    margin: 2%;
+    padding: 20px;
+    width: 15%;
+    border-radius: 12px;
+}
+nav a:hover {
+    background: #000000;
+    color: #ffffff;
+    border-style: solid;
+}
+
+/* LEFT COLUMN */
+.left {
+    background: #808000;
+    width: 20%;
+    float: left;
+}
+.left img {
+    border: solid 2px #000000;
+    width: 80%;
+    margin: 10%;
+}
+
+/* RIGHT COLUMN */
+.right {
+    display: inline;
+    margin-right: 200%;
+}
+
+/* HEADINGS */
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+/* MAIN BODY */
+body {
+    padding: 2px;
+    margin: 2%;
+}
+
+/* SECTION */
+section {
+    margin-left: 200%;
+    display: inline-block;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 20px;
+}
+.grid img {
+    width: 100%;
+}
+
+/* FLEX */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* TABLE */
+table {
+    margin-left: 25%;
+    margin-right: auto;
+}
+th {
+    background: #99cc00;
+    border-radius: 10px 10px 0 0;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px;
+    border-bottom-color: green;
+    border-bottom-width: 70px;
+}
+th:first-child {
+    text-align: left;
+}
+tr {
+    text-align: center;
+}
+td:first-child {
+    text-align: left;
+}
+td {
+    background: #c1ff80;
+    padding: 2px;
+    opacity: 0.6;
+    margin: 2px;
+    height: 50px;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+td:hover {
+    opacity: 0.9;
+}
+
+/* Commented out li styling */
+/* li {
+    your previous styles here...
+} */
